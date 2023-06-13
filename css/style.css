@@ -1,7 +1,7 @@
 .gradient-background {
   background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
   background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  animation: gradient-animation 8s ease infinite;
   width: 100%;
 }
 
@@ -34,4 +34,14 @@
 }
 body{
   overflow-x: hidden;
+}
+@media (max-width: 412px) {
+  .dog{
+    margin-left: 3.2%;
+    width: 93%;
+    padding-top: 10vh;
+  }
+}
+.review{
+  padding: 10%;
 }
